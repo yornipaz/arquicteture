@@ -1,0 +1,19 @@
+.footer {
+  height: 40rem;
+  background-image: url("../../img/footer_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--color-primary);
+}
+
+.footer__copy {
+  background-color: var(--color-secondary);
+  text-align: center;
+  margin: 5rem 0 0 0;
+  font-size: 2rem;
+  padding: 1rem;
+}

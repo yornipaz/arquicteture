@@ -1,0 +1,85 @@
+.header {
+  min-height: 40rem;
+  background-image: url("../../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5rem 0;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  height: calc(40rem - 4rem);
+  justify-content: space-between;
+  color: var(--color-primary);
+}
+
+.header__name-site {
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.header__name-site span {
+  font-weight: 300;
+}
+.header__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__stick a {
+  color: var(--color-primary);
+  font-size: 1.6rem;
+}
+.header__stick a:hover {
+  background-color: rgb(255 255 255 /0.5);
+  color: var(--color-secondary);
+}
+.header__contact-tel {
+  display: flex;
+}
+.header__contact-tel::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  margin-right: 0.5rem;
+  height: 2rem;
+  background-position: center;
+  background-image: url("../../img/telefono.png");
+}
+.header__slogan {
+  text-align: center;
+}
+.header__slogan h1 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+.header__slogan p {
+  margin: 0;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 2rem 0;
+  }
+  .header__stick {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__name-site {
+    font-size: 3.5rem;
+  }
+  .header__contact {
+    align-items: flex-end;
+  }
+  .header__slogan {
+    text-align: right;
+  }
+  .header__slogan h1 {
+    font-size: 4rem;
+  }
+}

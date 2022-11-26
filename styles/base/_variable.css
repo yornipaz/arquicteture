@@ -1,0 +1,9 @@
+:root {
+   /**Color  proyect*/
+  --color-primary: #f3f5f7;
+  --color-secondary: #111111;
+  --color-tertiary: #343A40;
+  /**Font  proyect*/
+  --font-primary: 'Raleway', sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+}
